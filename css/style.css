@@ -1,0 +1,68 @@
+.font {
+	font-family: 'League Spartan', sans-serif;
+}
+
+body {
+	font-family: 'lato';
+}
+
+
+.bg-image {
+	background-image: url(/img/bg.jpg);
+	height: 100vh;
+	position: relative;
+	background-position: center center;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 0;
+	padding-bottom: 0;
+}
+
+.paralax-mf {
+	position: relative;
+	padding: 8em 0;
+}
+
+.overlay-mf {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0.7;
+	background-color: #00B8FF;
+}
+
+*::after {
+	box-sizing: border-box;
+}
+
+.position-relative {
+	position: relative!important;
+}
+
+.header-name {
+	margin-top: 400px;
+}
+
+.get-in-touch {
+	background-color: #212529;
+}
+
+.form {
+	background-color: #ffffff;
+}
+
+.logo {
+	height: 40px;
+}
+
+.sky {
+	background-color: #0094FF;
+}
+
+.letter-space {
+	letter-spacing: 8px;
+}
